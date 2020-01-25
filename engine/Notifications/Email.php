@@ -139,13 +139,14 @@ class Email {
             '$appointment_provider' => $provider['first_name'] . ' ' . $provider['last_name'],
             '$appointment_start_date' => date($date_format . ' ' . $timeFormat, strtotime($appointment['start_datetime'])),
             '$appointment_end_date' => date($date_format . ' ' . $timeFormat, strtotime($appointment['end_datetime'])),
+            '$provider_address' => $provider['address'],
             '$appointment_link' => $appointmentLink->get(),
             '$company_link' => $company['company_link'],
             '$company_name' => $company['company_name'],
             '$customer_name' => $customer['first_name'] . ' ' . $customer['last_name'],
             '$customer_email' => $customer['email'],
             '$customer_phone' => $customer['phone_number'],
-            '$customer_address' => $customer['address'],
+            
 
             // Translations
             'Appointment Details' => $this->framework->lang->line('appointment_details_title'),
