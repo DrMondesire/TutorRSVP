@@ -134,28 +134,8 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="provider-mobile-number"><?= lang('mobile_number') ?></label>
-                                    <input id="provider-mobile-number" class="form-control" maxlength="128">
-                                </div>
-
-                                <div class="form-group">
                                     <label for="provider-address"><?= lang('address') ?></label>
                                     <input id="provider-address" class="form-control" maxlength="256">
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="provider-city"><?= lang('city') ?></label>
-                                    <input id="provider-city" class="form-control" maxlength="256">
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="provider-state"><?= lang('state') ?></label>
-                                    <input id="provider-state" class="form-control" maxlength="256">
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="provider-zip-code"><?= lang('zip_code') ?></label>
-                                    <input id="provider-zip-code" class="form-control" maxlength="64">
                                 </div>
 
                                 <div class="form-group">
@@ -422,28 +402,8 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="secretary-mobile-number"><?= lang('mobile_number') ?></label>
-                                <input id="secretary-mobile-number" class="form-control" maxlength="128">
-                            </div>
-
-                            <div class="form-group">
                                 <label for="secretary-address"><?= lang('address') ?></label>
                                 <input id="secretary-address" class="form-control" maxlength="256">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="secretary-city"><?= lang('city') ?></label>
-                                <input id="secretary-city" class="form-control" maxlength="256">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="secretary-state"><?= lang('state') ?></label>
-                                <input id="secretary-state" class="form-control" maxlength="128">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="secretary-zip-code"><?= lang('zip_code') ?></label>
-                                <input id="secretary-zip-code" class="form-control" maxlength="64">
                             </div>
 
                             <div class="form-group">
@@ -577,28 +537,8 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="admin-mobile-number"><?= lang('mobile_number') ?></label>
-                                <input id="admin-mobile-number" class="form-control" maxlength="128">
-                            </div>
-
-                            <div class="form-group">
                                 <label for="admin-address"><?= lang('address') ?></label>
                                 <input id="admin-address" class="form-control" maxlength="256">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="admin-city"><?= lang('city') ?></label>
-                                <input id="admin-city" class="form-control" maxlength="256">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="admin-state"><?= lang('state') ?></label>
-                                <input id="admin-state" class="form-control" maxlength="128">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="admin-zip-code"><?= lang('zip_code') ?></label>
-                                <input id="admin-zip-code" class="form-control" maxlength="64">
                             </div>
 
                             <div class="form-group">

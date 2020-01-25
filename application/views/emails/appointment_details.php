@@ -45,14 +45,6 @@
                     <td class="label" style="padding: 3px;font-weight: bold;">Email</td>
                     <td style="padding: 3px;">$customer_email</td>
                 </tr>
-                <tr>
-                    <td class="label" style="padding: 3px;font-weight: bold;">Phone</td>
-                    <td style="padding: 3px;">$customer_phone</td>
-                </tr>
-                <tr>
-                    <td class="label" style="padding: 3px;font-weight: bold;">Address</td>
-                    <td style="padding: 3px;">$customer_address</td>
-                </tr>
             </table>
 
             <h2>Appointment Link</h2>
