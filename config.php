@@ -30,7 +30,7 @@ class Config {
     // GENERAL SETTINGS
     // ------------------------------------------------------------------------
 
-    const BASE_URL      = 'http://localhost/easyappointments';
+    const BASE_URL      = 'http://localhost/TutorRSVP';
     //const BASE_URL      = 'http://compsci.epizy.com/easyappointments';
     const LANGUAGE      = 'english';
     const DEBUG_MODE    = FALSE;
