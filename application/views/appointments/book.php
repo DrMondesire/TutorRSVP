@@ -230,20 +230,8 @@
 
                             <div class="col-xs-12 col-sm-6">
                                 <div class="form-group">
-                                    <label for="address" class="control-label"><?= lang('address') ?></label>
-                                    <input type="text" id="address" class="form-control" maxlength="120" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="city" class="control-label"><?= lang('city') ?></label>
-                                    <input type="text" id="city" class="form-control" maxlength="120" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="zip-code" class="control-label"><?= lang('zip_code') ?></label>
-                                    <input type="text" id="zip-code" class="form-control" maxlength="120" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="notes" class="control-label"><?= lang('notes') ?></label>
-                                    <textarea id="notes" maxlength="500" class="form-control" rows="3"></textarea>
+                                    <label for="notes" class="control-label">Details of what you need help with? *</label>
+                                    <textarea id="notes" maxlength="500" class="required form-control" rows="3"></textarea>
                                 </div>
                             </div>
 
