@@ -515,7 +515,6 @@ window.FrontendBook = window.FrontendBook || {};
             + '<strong class="text-primary">'
             + $('#select-provider option:selected').text() + '<br>'
             + selectedDate + ' ' + $('.selected-hour').text()
-            + servicePrice + ' ' + serviceCurrency
             + '</strong>' +
             '</p>';
 
@@ -529,7 +528,7 @@ window.FrontendBook = window.FrontendBook || {};
         var address = GeneralFunctions.escapeHtml($('#address').val());
         var city = GeneralFunctions.escapeHtml($('#city').val());
         var zipCode = GeneralFunctions.escapeHtml($('#zip-code').val());
-
+        var notes = GeneralFunctions.escapeHtml($('#notes').val());
         html =
             '<h4>' + firstName + ' ' + lastName + '</h4>' +
             '<p>' +
@@ -537,11 +536,7 @@ window.FrontendBook = window.FrontendBook || {};
             '<br/>' +
             EALang.email + ': ' + email +
             '<br/>' +
-            EALang.address + ': ' + address +
-            '<br/>' +
-            EALang.city + ': ' + city +
-            '<br/>' +
-            EALang.zip_code + ': ' + zipCode +
+            EALang.notes + ': ' + notes +
             '</p>';
 
         $('#customer-details').html(html);
@@ -675,10 +670,6 @@ window.FrontendBook = window.FrontendBook || {};
 
                 if (service.duration != '' && service.duration != null) {
                     html += '[' + EALang.duration + ' ' + service.duration + ' ' + EALang.minutes + ']';
-                }
-
-                if (service.price != '' && service.price != null) {
-                    html += '[' + EALang.price + ' ' + service.price + ' ' + service.currency + ']';
                 }
 
                 html += '<br>';
