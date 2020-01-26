@@ -444,28 +444,8 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="mobile-number"><?= lang('mobile_number') ?></label>
-                            <input id="mobile-number" class="form-control">
-                        </div>
-
-                        <div class="form-group">
                             <label for="address"><?= lang('address') ?></label>
                             <input id="address" class="form-control">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="city"><?= lang('city') ?></label>
-                            <input id="city" class="form-control">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="state"><?= lang('state') ?></label>
-                            <input id="state" class="form-control">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="zip-code"><?= lang('zip_code') ?></label>
-                            <input id="zip-code" class="form-control">
                         </div>
 
                         <div class="form-group">

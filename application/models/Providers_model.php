@@ -373,7 +373,7 @@ class Providers_Model extends CI_Model {
         // Check if selected record exists on database.
         if ($this->db->get_where('ea_users', ['id' => $provider_id])->num_rows() == 0)
         {
-            throw new Exception('Selected record does not exist in the database.');
+            throw new Exception('Selected record does not exist in the database.' . $provider_id);
         }
 
         // Get provider data.

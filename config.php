@@ -45,8 +45,8 @@ class Config {
     const DB_PASSWORD   = 'password123';
 
     /*const DB_HOST       = 'sql208.epizy.com';
-    const DB_NAME       = 'epiz_24508084';
-    const DB_USERNAME   = 'epiz_24508084_easyappointments';
+    const DB_NAME       = 'epiz_24508084_easyappointments';
+    const DB_USERNAME   = 'epiz_24508084';
     const DB_PASSWORD   = '1FJZ6HteVkz9mR';
     */
     

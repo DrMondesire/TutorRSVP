@@ -243,21 +243,6 @@
                             </div>
                             <div class="col-xs-12 col-sm-6">
                                 <div class="form-group">
-                                    <label for="address" class="control-label"><?= lang('address') ?></label>
-                                    <input id="address" class="form-control">
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="city" class="control-label"><?= lang('city') ?></label>
-                                    <input id="city" class="form-control">
-                                </div>
-
-                                <div class="form-group">
-                                    <label for="zip-code" class="control-label"><?= lang('zip_code') ?></label>
-                                    <input id="zip-code" class="form-control">
-                                </div>
-
-                                <div class="form-group">
                                     <label for="customer-notes" class="control-label"><?= lang('notes') ?></label>
                                     <textarea id="customer-notes" rows="2" class="form-control"></textarea>
                                 </div>

@@ -64,7 +64,7 @@
             Powered by
             <a href="http://easyappointments.org" style="text-decoration: none;">Easy!Appointments</a>
             |
-            <a href="$company_link" style="text-decoration: none;">$company_name</a>
+            <a href="$company_link" style="text-decoration: none;"> $company_name</a>
         </div>
     </div>
 </body>
